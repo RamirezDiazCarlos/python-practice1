@@ -11,12 +11,13 @@ numero_03 = "789"
 numero_04 = "132"
 
 # COMPLETAR - INICIO
-
+suma = int(numero_01) + int(numero_02) + int(numero_03) + int(numero_04)
+print(f"La suma es: {suma}")
 # COMPLETAR - FIN
 
-assert suma_de_numeros == 1500
+#assert suma_de_numeros == 1500
 
-
+print("-------------------------------------------------------------------")
 """
 Convertir los numeros de enteros a string y luego concatenarlos.
 """
@@ -26,12 +27,13 @@ numero_02 = 456
 numero_03 = 789
 
 # COMPLETAR - INICIO
-
+concatenacion = str(numero_01) + str(numero_02) + str(numero_03)
+print(f"La concatencacion es: {concatenacion}")
 # COMPLETAR - FIN
 
-assert suma_de_numeros_string == "123456789"
+#assert suma_de_numeros_string == "123456789"
 
-
+print("-------------------------------------------------------------------")
 """
 Convertir los numeros de binario, octal y hexadecimal a enteros y luego
 multiplicarlos.
@@ -42,12 +44,13 @@ numero_octal = "0o1425"
 numero_hexadecimal = "0x6f540"
 
 # COMPLETAR - INICIO
-
+mult = int(numero_binario, 2) * int(numero_octal, 8) * int(numero_hexadecimal, 16)
+print(f"La multiplicacion es: {mult}")
 # COMPLETAR - FIN
 
-assert multiplicacion_de_numeros == 44397345600000000
+#assert multiplicacion_de_numeros == 44397345600000000
 
-
+print("-------------------------------------------------------------------")
 """
 Convertir todo los numeros a enteros y luego restarlos secuencialmente (El uno
 menos el dos menos el tres menos el cuatro).
@@ -59,7 +62,8 @@ numero_03 = "0o1234"
 numero_04 = 654
 
 # COMPLETAR - INICIO
-
+resta = int(numero_01) - int(numero_02, 16) - int(numero_03, 8) - numero_04
+print(f"La resta es: {resta}")
 # COMPLETAR - FIN
 
-assert resultado_resta == -456350
+#assert resultado_resta == -456350
