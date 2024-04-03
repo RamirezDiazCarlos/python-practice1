@@ -12,13 +12,11 @@ persona_02 = "Kevin"
 edad_02 = 41
 
 # COMPLETAR - INICIO
-if persona_01 == persona_02 and edad_01 != edad_02:
-    print("Las dos personas tienen el mismo nombre pero edades diferentes.")
+comparar_nombre_y_edad = persona_01 == persona_02 and edad_01 != edad_02
 # COMPLETAR - FIN
 
-#assert comparar_nombre_y_edad
+assert comparar_nombre_y_edad
 
-print("-------------------------------------------------------------------")
 """
 Construir una expresión lógica que use TODAS las variables y cuyo resultado sea
 True si un auto no es de marca Ford y su modelo es igual o anterior al año 2000.
@@ -29,13 +27,11 @@ marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
 
 # COMPLETAR - INICIO
-if marca_del_auto != "Ford" and modelo_de_auto <= 2000:
-    print(f"El auto no es Ford y es modelo {modelo_de_auto}")
+comparar_marca_y_modelo = marca_del_auto != "Ford" and modelo_de_auto <= 2000
 # COMPLETAR - FIN
 
-#assert comparar_marca_y_modelo
+assert comparar_marca_y_modelo
 
-print("-------------------------------------------------------------------")
 """
 Construir una expresión lógica que use TODAS las variables y cuyo resultado sea
 True si la superfice del campo 1 es menor a la del campo 2 y la superficie del
@@ -48,13 +44,11 @@ superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
-if superficie_de_campo_01 < superficie_de_campo_02 > superficie_de_campo_03:
-        print(f"{superficie_de_campo_02} es la superficie mayor")
+comparar_superficie = superficie_de_campo_01 < superficie_de_campo_02 > superficie_de_campo_03
 # COMPLETAR - FIN
 
-#assert comparar_superficie
+assert comparar_superficie
 
-print("-------------------------------------------------------------------")
 """
 Construir una expresión lógica que use TODAS las variables y cuyo resultado sea
 True si la cantidad de bananas es menor a la mitad de la cantidad de naranjas,
@@ -69,8 +63,7 @@ manzanas = 300
 peras = 30
 
 # COMPLETAR - INICIO
-if bananas < (naranjas/2) < (manzanas*2) <= (peras**2):
-    print("True")
+comparar_frutas = bananas < (naranjas/2) < (manzanas*2) <= (peras**2)
 # COMPLETAR - FIN
 
-#assert comparar_frutas
+assert comparar_frutas
