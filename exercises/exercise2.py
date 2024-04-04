@@ -25,7 +25,7 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-area_mayor_a_cinco = not area_cuadrado < lado_cuadrado
+area_mayor_a_cinco = area_cuadrado > lado_cuadrado
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -57,7 +57,7 @@ variable_04 = "90"
 variable_05 = 100
 
 # COMPLETAR - INICIO
-resultado = variable_01 or variable_02 and variable_03 or variable_04 or variable_05
+resultado = not (variable_01 or variable_02 or variable_04 or variable_05) or variable_03
 # COMPLETAR - FIN
 
 assert resultado == 80
